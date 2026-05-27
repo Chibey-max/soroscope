@@ -9,6 +9,12 @@ mod storage_types;
 
 #[cfg(test)]
 mod test;
+#[cfg(test)]
+mod test_admin_rotation;
+#[cfg(test)]
+mod test_multisig;
+#[cfg(test)]
+mod test_granular_pause;
 
 pub use crate::contract::Token;
 pub use crate::contract::TokenClient;
